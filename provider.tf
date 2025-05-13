@@ -1,4 +1,4 @@
 provider "aws" {
-  access_key = "AKIAYHJANDB522LUKRWP"
-  secret_key = "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"
+  access_key = var.access_key
+  secret_key = var.secret_key
 }
